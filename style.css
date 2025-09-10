@@ -2,10 +2,23 @@ body {
   font-family: 'Segoe UI', Arial, sans-serif;
   text-align: center;
   background: linear-gradient(90deg, #23272a 0%, #5865F2 100%);
-  /* Gradient goes left to right (90deg) */
+  background-size: 200% 200%;
+  animation: gradientMove 6s ease-in-out infinite;
   color: #fff;
   margin: 0;
   min-height: 100vh;
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 a {
