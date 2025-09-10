@@ -1,0 +1,29 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  text-align: center;
+  background: linear-gradient(135deg, #23272a 0%, #5865F2 100%);
+  color: #fff;
+  margin: 0;
+  min-height: 100vh;
+}
+
+a {
+  display: inline-block;
+  margin: 16px 8px;
+  padding: 14px 28px;
+  background: #5865F2;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(88,101,242,0.15);
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 1.1rem;
+  transition: background 0.2s, transform 0.2s, box-shadow 0.2s;
+}
+
+a:hover {
+  background: #404eed;
+  transform: translateY(-2px) scale(1.04);
+  box-shadow: 0 4px 16px rgba(88,101,242,0.3);
+}
